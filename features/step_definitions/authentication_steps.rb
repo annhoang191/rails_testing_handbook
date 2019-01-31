@@ -33,7 +33,7 @@ When "I fill in the login form" do
 end
 
 Then "I should be logged in" do
-  expect(page).to have_content("Signed in")
+  expect(page).to have_content("Books")
 end
 
 Given "I am logged in" do

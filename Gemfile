@@ -21,6 +21,7 @@ group :development, :test do
     branch: "rails-5"
   gem "factory_bot_rails"
   gem "email_spec"
+  gem "rails-controller-testing"
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
 end
 
