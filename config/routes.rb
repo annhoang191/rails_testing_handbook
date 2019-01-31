@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :books
+  resources :homes
   devise_for :users
-  root to: "homes#index"
+  root to: "books#index"
 end
